@@ -4,3 +4,21 @@ class CustomerInfo:
         self.product = product
         self.price = price
         self.quantity = quantity
+        
+    def expense(self):
+        total_price = self.price * self.quantity
+        return total_price
+    
+    def __str__(self):
+        print("=" * 40)
+        print("        RECEIPT")
+        print("=" * 40)
+        print(f"Customer: {self.name}")
+        print()
+        print("Product     Price     Qty")
+        print("-" * 40)
+        print(f"{self.product}      {self.price}       {self.quantity}")
+        print()
+        print(f"Total: {self.expense()} ETB")
+        print("Thank You For Shopping!")
+        print("=" * 40)
