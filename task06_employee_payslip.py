@@ -26,4 +26,4 @@ transport = float(input("Enter your Transport Allowance: "))
 food = float(input("Enter your Food Allowance: "))
 
 employee_1 = EmployeeInfo(name, salary, transport, food)
-print(Employee_1.__str__())
+print(employee_1.__str__())
