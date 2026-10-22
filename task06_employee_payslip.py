@@ -19,3 +19,11 @@ class EmployeeInfo:
         print("-" * 40)
         print(f"Gross Salary: {self.expense()} ETB")
         print("=" * 40)
+        
+name = input("Enter your Employee name: ")
+salary = float(input("Enter your salary: "))
+transport = float(input("Enter your Transport Allowance: "))
+food = float(input("Enter your Food Allowance: "))
+
+employee_1 = EmployeeInfo(name, salary, transport, food)
+print(employee_1)
