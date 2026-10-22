@@ -1,3 +1,4 @@
+#task 05 shopping receipt
 class CustomerInfo:
     def __init__(self, name, product, price, quantity):
         self.name = name
