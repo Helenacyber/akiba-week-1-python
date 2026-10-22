@@ -8,3 +8,12 @@ def celsius_to_fahrenheit (temp):
  
 unit = input("Enter the unit of your temperature (C or F): ").strip().upper()
 temp = float(input("Enter the temperature to be converted: "))
+
+if unit == 'C':
+    result = celsius_to_fahrenheit(temp)
+    print(f"{temp}°C = {result:.2f}°F")
+elif unit == 'F':
+    result = fahrenheit_to_celsius(temp)
+    print(f"{temp}°F = {result:.2f}°C")
+else:
+    print("Invalid unit. Please enter 'C' or 'F'.")
