@@ -22,3 +22,11 @@ class CustomerInfo:
         print(f"Total: {self.expense()} ETB")
         print("Thank You For Shopping!")
         print("=" * 40)
+        
+name = input("Enter customer name: ")
+product = input("Enter product name: ")
+price = float(input("Enter price: "))
+quantity = int(input("Enter quantity: "))
+
+customer_1 = CustomerInfo(name, product, price, quantity)
+print(customer_1)
