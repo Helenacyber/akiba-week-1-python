@@ -29,4 +29,4 @@ price = float(input("Enter price: "))
 quantity = int(input("Enter quantity: "))
 
 customer_1 = CustomerInfo(name, product, price, quantity)
-print(customer_1)
+print(customer_1.__str__())
