@@ -5,3 +5,6 @@ def fahrenheit_to_celsius(temp):
 def celsius_to_fahrenheit (temp):
      celsius_temp = 5/9 *(temp - 32)
      return celsius_temp
+ 
+unit = input("Enter the unit of your temperature (C or F): ").strip().upper()
+temp = float(input("Enter the temperature to be converted: "))
