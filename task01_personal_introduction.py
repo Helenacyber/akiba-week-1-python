@@ -1,6 +1,4 @@
-
-# TASK 1 – Personal Introduction
-
+#task 01 personal introduction
 # Practice variables, strings, and user input.
 # Create a program that asks the user for:
 # Full name
