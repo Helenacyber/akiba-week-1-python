@@ -6,3 +6,8 @@ department = input("Enter Department: ")
 year = input("Enter Year: ")
 university = input("Enter University: ")
 phone = input("Enter Phone Number: ")
+
+
+print("\n+-------------------------------+")
+print("|      AKIBA STUDENT CARD       |")
+print("+-------------------------------+")
