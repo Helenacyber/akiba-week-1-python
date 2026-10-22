@@ -1,5 +1,6 @@
 
-# Goal
+# TASK 1 – Personal Introduction
+
 # Practice variables, strings, and user input.
 # Create a program that asks the user for:
 # Full name
@@ -12,7 +13,6 @@
 # Display the
 
 
-# TASK 1 – Personal Introduction
 
 from os import name
 
