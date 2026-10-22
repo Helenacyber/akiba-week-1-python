@@ -33,4 +33,4 @@
 
 ## What I Learned
 
-This week I learned the fundamentals of Python programming. I practiced variables, data types, input, output, arithmetic operators, and formatted output. I also learned how to create a GitHub repository, use Git, and submit my programming work.
+This week I learned the basics of Python programming. I learned how to use variables, different data types, input and output, arithmetic operations, and formatted output. I also practiced writing simple Python programs and learned how to use Git and GitHub to manage and submit my work.
