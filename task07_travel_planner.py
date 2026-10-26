@@ -8,3 +8,7 @@ class travle_planner:
    def time_travle(self):
     time = self.distance / self.speed
     return time 
+
+   def time_converter(self):
+    min = self.time / 60
+    return min
