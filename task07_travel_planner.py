@@ -19,3 +19,8 @@ class travle_planner:
        print(f'Average Speed: {self.speed} km/hr')
        print(f'Estimated Travel Time : {self.time_travle()} Hours')
        print(f'Travle Time in hr:min : {self.time}:{self.time_converter} hr')
+
+
+destination = input('Enter your destination: ')
+distance = float(input('Enter your distance: '))
+speed = float(input('Enter the Average speed: '))
