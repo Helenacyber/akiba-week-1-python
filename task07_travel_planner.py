@@ -12,3 +12,10 @@ class travle_planner:
    def time_converter(self):
     min = self.time / 60
     return min
+
+   def __str__(self):
+       print(f'Destination: {self.destination}')
+       print(f'Distance: {self.distance} km')
+       print(f'Average Speed: {self.speed} km/hr')
+       print(f'Estimated Travel Time : {self.time_travle()} Hours')
+       print(f'Travle Time in hr:min : {self.time}:{self.time_converter} hr')
