@@ -17,4 +17,5 @@ class exchange:
         print(f'ETH Amount: {self.currency_exchange()} ETB')   
         print('=' *40)
 
+exchange_rate = float(input('Enter the exchange rate: '))
     
