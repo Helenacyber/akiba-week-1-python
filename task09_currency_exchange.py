@@ -18,4 +18,5 @@ class exchange:
         print('=' *40)
 
 exchange_rate = float(input('Enter the exchange rate: '))
-    
+currency = exchange(100)
+print(currency.__str__())
