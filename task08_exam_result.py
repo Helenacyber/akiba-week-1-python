@@ -1,4 +1,4 @@
-#Exam Result Report
+# Exam Result Report 
 
 name = input('Enter Student Name: ')
 python_score = float(input('Enter Your Python score: '))
@@ -16,3 +16,4 @@ print(f'Mathematics: {maths_score}')
 print('--'*20)
 print(f'Average: {average_score:.2f}')
 print('==' *20)
+
