@@ -8,3 +8,13 @@ class convertor:
     def BMI_calculator(self):
         BMI = self.weight/(self.height **2)
         return f'{BMI:.2f}'
+
+    def __str__(self):
+        print('=' *40)
+        print('      BMI REPORT')
+        print('=' *40)
+        print(f'Name: {self.name}')
+        print(f'Weight: {self.weight} m')
+        print(f'Height: {self.height} kg')
+        print(f'BMI: {self.BMI_calculator()} ETB')   
+        print('=' *40)
