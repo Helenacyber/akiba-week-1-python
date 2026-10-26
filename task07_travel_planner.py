@@ -4,3 +4,7 @@ class travle_planner:
       self.destination = destination
       self.distance = distance
       self.speed = speed
+
+   def time_travle(self):
+    time = self.distance / self.speed
+    return time 
