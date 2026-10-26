@@ -13,3 +13,10 @@ email           = input("Enter your email: ")
 phone           = input("Enter your phone number: ")
 fav_language    = input("Enter your favorite programming language: ")
 programming_goal = input("Enter your programming goal: ")
+line = "=" * 50
+
+print()
+print(line)
+print("AKIBA STUDENT PROFILE".center(50))
+print(line)
+print()
